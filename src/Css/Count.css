@@ -1,0 +1,25 @@
+main{
+    width: 300px;
+    margin: 100px auto;
+    padding: 25px;
+    background: beige;
+}
+.container{
+    border: 1px solid;
+    text-align: center;
+    height: 100%;
+}
+
+.Resetvalue{
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 900;
+}
+.btnsvalue{
+    padding: 20px; 
+}
+
+button.btn.reset {
+    margin-left: 5px;
+    margin-right: 5px;
+}
