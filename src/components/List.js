@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-//import BlogBody from './BlogBody';
+//import BlogBody from './BlogBody' <BlogBody Posts={Posts} />;
 //import BlogBody from './components/BlogBody';
 
 import axios from 'axios';
@@ -23,8 +23,9 @@ const List = ()=>{
     
     return(
         <>
+
         {Posts.map((post) =>(
-                    
+            
             <dl class="row">
             <dt class="col-sm-3">Id</dt>
             <dd class="col-sm-9">{post.id}</dd>
@@ -41,7 +42,8 @@ const List = ()=>{
             <dd class="col-sm-9">{post.body}</dd>
             </dl>
         
-        )) }
+         )) }
+        
         </>
     )
 }
