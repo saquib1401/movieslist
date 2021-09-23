@@ -5,18 +5,18 @@ import './App.css';
 //import Cards from "./components/Cards";
 //import RenderList from "./components/RenderList";
 //import RenderListSearch from "./components/RenderListSearch";
-
 //import Count from "./components/Count"
 //import BasicTwo from "./Hook/Basic";
 //import BasicOne from "./Hook/BasicOne";
+//import Count from "./Hook/Count"
+//import MainComponent  from './components/Context/MainComponent';
 
-import Count from "./Hook/Count"
-
+import List from './components/List';
 function App() {
   return (
     <div className="App">
-        <Count/>
-        
+        <List/>
+
     </div>
     
   );
